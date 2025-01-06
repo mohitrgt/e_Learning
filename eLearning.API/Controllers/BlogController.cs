@@ -13,7 +13,7 @@ namespace eLearning.API.Controllers
     public class BlogController : ApiControllerBase
     {
         [HttpGet]
-        [Route("GetAll/check")]
+        [Route("GetAll/check/test")]
         public async Task<IActionResult> GetAllAsync()
         {
             try
